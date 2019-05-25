@@ -257,13 +257,13 @@ describe '#most_points_scored' do
 
  end
 
-#   describe '#winning_team' do
+   describe '#winning_team' do
 
-#     it 'returns the Brooklyn Nets' do
-#       expect(winning_team).to eq("Brooklyn Nets")
-#     end
+     it 'returns the Brooklyn Nets' do
+       expect(winning_team).to eq("Brooklyn Nets")
+     end
 
-#   end
+   end
 
 #   describe '#player_with_longest_name' do
 
