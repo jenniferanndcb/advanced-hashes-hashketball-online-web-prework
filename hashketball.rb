@@ -222,5 +222,11 @@ def big_shoe_rebounds
 end
 
   
+def most_points_scored 
+  most_points = 0 
   
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data| 
+  end
+end
 
