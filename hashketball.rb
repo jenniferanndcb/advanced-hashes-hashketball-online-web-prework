@@ -231,6 +231,10 @@ def most_points_scored
         data.each do |player_name, player_data|
           if player_data[:points] > most_points
             most_points << player_data
+          end
+        end
+      end
+    end
   end
 end
 
